@@ -1,0 +1,27 @@
+Here's a step-by-step guide to executing the To-Do List application code in PyCharm:
+
+Step 1: Install PyCharm
+If you don't have PyCharm installed on your computer, you can download it from the official website: https://www.jetbrains.com/pycharm/download/
+
+Step 2: Create a New Project
+Open PyCharm and create a new project by clicking on "Create New Project" or selecting "New Project" from the File menu.
+
+Step 3: Choose Project Interpreter
+In the New Project dialog, make sure you select an interpreter for your project. If you don't have Python installed on your computer, you can download and install it from the official Python website: https://www.python.org/downloads/
+
+Step 4: Create a Python File
+Once your project is created, right-click on the project name in the Project Explorer (usually on the left side of the PyCharm window) and select "New" > "Python File". Name the file as "todo_app.py".
+
+Step 5: Copy the Code
+Copy the entire code provided in the previous answer and paste it into the "todo_app.py" file.
+
+Step 6: Install the Required Library
+In order to use the `colorama` library, you need to install it. To do this, open the terminal in PyCharm and type the following command:
+
+pip install colorama
+
+Step 7: Run the Code
+Now, you can run the To-Do List application by right-clicking on the "todo_app.py" file in the Project Explorer and selecting "Run 'todo_app'".
+
+Step 8: Interact with the Application
+The application will prompt you with a menu to choose options. You can follow the instructions and interact with the application using the command-line interface.
