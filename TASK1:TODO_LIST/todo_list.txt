@@ -1,3 +1,5 @@
+PLEASE DO NOT FORGET TO DOWNLOAD 'COLORAMA' LIBRARY TO EXECUTE THE CODE. 
+
 Here's a step-by-step guide to executing the To-Do List application code in PyCharm:
 
 Step 1: Install PyCharm
@@ -7,7 +9,7 @@ Step 2: Create a New Project
 Open PyCharm and create a new project by clicking on "Create New Project" or selecting "New Project" from the File menu.
 
 Step 3: Choose Project Interpreter
-In the New Project dialog, make sure you select an interpreter for your project. If you don't have Python installed on your computer, you can download and install it from the official Python website: https://www.python.org/downloads/
+In the New Project dialog, make sure you select an interpreter for your project. If you don't have Python installed on your computer, you can download and install it from the official Python website: https://www.python.org/downloads/ [if already installed then just ignore this step)
 
 Step 4: Create a Python File
 Once your project is created, right-click on the project name in the Project Explorer (usually on the left side of the PyCharm window) and select "New" > "Python File". Name the file as "todo_app.py".
