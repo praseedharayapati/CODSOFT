@@ -1,7 +1,7 @@
 import os
 from colorama import Fore, Style
 
-# File name to store the tasks
+
 TASKS_FILE = "tasks.txt"
 
 def display_tasks(tasks):
@@ -14,8 +14,11 @@ def display_tasks(tasks):
         print(f"{i}. {task}")
 
 def add_task(task, tasks):
-    tasks.append(task)
-    print(Fore.GREEN + "Task added successfully!" + Style.RESET_ALL)
+    if task not in tasks:
+        tasks.append(task)
+        print(Fore.GREEN + "Task added successfully!" + Style.RESET_ALL)
+    else:
+        print(Fore.YELLOW + "Task already exists!" + Style.RESET_ALL)
 
 def update_task(task_index, updated_task, tasks):
     if task_index < 1 or task_index > len(tasks):
@@ -72,7 +75,7 @@ def main():
             remove_task(task_index, tasks)
             save_tasks_to_file(tasks)
         elif choice == "5":
-            print("Goodbye!")
+            print("Have A Good Day. Bye!")
             break
         else:
             print(Fore.RED + "Invalid choice! Please choose again." + Style.RESET_ALL)
