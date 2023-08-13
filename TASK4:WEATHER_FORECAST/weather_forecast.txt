@@ -1,0 +1,11 @@
+This Python code uses the OpenWeatherMap API to fetch and display the current weather for a city you choose. It prompts you to input the city's name, then fetches weather data from the API using a secret code called an API key. This key should be kept secure, so the code retrieves it from an environment variable named 'current_weather_data'.
+
+To set up the environment variable:
+1. Go to your computer's settings.
+2. Search for 'Environment Variables' and select 'Edit the system environment variables'.
+3. Click 'Environment Variables' button.
+4. Under 'System variables', click 'New' and type 'current_weather_data' as the variable name and your OpenWeatherMap API key as the variable value.
+
+After setting up the environment variable, run the code. It uses the 'requests' library, so ensure it's installed using 'pip install requests'. Then, follow the instructions, and the code will display the current temperature, weather description, humidity, and wind speed for the chosen city, along with the current date and time.
+
+Remember, this code helps you check the weather easily, but keeping your API key secret is important for security.
